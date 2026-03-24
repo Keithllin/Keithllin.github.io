@@ -21,6 +21,21 @@ Besides doing reaserch, I also have interest in music and sports. I used to be a
 
 ---
 
+### Latest Article
+
+**[Transparent Fragments Contour Estimation via Visual-Tactile Fusion for Autonomous Reassembly](https://arxiv.org/abs/2603.20290)**
+
+Paper: [arXiv](https://arxiv.org/abs/2603.20290)  
+Code: [GitHub](https://github.com/Keithllin/Transparent-Fragments-Contour-Estimation)
+
+<a href="https://arxiv.org/abs/2603.20290">
+  <img src="all.jpg" alt="Transparent Fragments Contour Estimation via Visual-Tactile Fusion for Autonomous Reassembly" style="max-width: 100%; height: auto;">
+</a>
+
+**Abstract:** The contour estimation of transparent fragments is very important for autonomous reassembly, especially in the fields of precision optical instrument repair, cultural relic restoration, and identification of other precious device broken accidents. Different from general intact transparent objects, the contour estimation of transparent fragments face greater challenges due to strict optical properties, irregular shapes and edges. To address this issue, a general transparent fragments contour estimation framework based on visual-tactile fusion is proposed in this paper. First, we construct the transparent fragment dataset named TransFrag27K, which includes a multiscene synthetic data of broken fragments from multiple types of transparent objects, and a scalable synthetic data generation pipeline. Secondly, we propose a visual grasping position detection network named TransFragNet to identify, locate and segment the sampling grasping position. And, we use a two-finger gripper with Gelsight Mini sensors to obtain reconstructed tactile information of the lateral edge of the fragments. By fusing this tactile information with visual cues, a visual-tactile fusion material classifier is proposed. Inspired by the way humans estimate a fragment's contour combining vision and touch, we introduce a general transparent fragment contour estimation framework based on visual-tactile fusion, demonstrates strong performance in real-world validation. Finally, a multi-dimensional similarity metrics based contour matching and reassembly algorithm is proposed, providing a reproducible benchmark for evaluating visual-tactile contour estimation and fragment reassembly. The experimental results demonstrate the validity of the proposed framework.
+
+---
+
 ### Contact
 
 **Email**: qihaol@andrew.cmu.edu
