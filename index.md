@@ -36,7 +36,7 @@ Code: [GitHub](https://github.com/Keithllin/Transparent-Fragments-Contour-Estima
 
 #### [A dataset and benchmark for robotic cloth unfolding grasp selection: The ICRA 2024 Cloth Competition](https://doi.org/10.1177/02783649251414885)
 
-Citation: De Gusseme V-L, Lips T, Proesmans R, et al. *A dataset and benchmark for robotic cloth unfolding grasp selection: The ICRA 2024 Cloth Competition*. *The International Journal of Robotics Research*. 2026;0(0).  
+De Gusseme V-L, Lips T, Proesmans R, et al. *A dataset and benchmark for robotic cloth unfolding grasp selection: The ICRA 2024 Cloth Competition*. *The International Journal of Robotics Research (IJRR)*.  
 Authors include: Victor-Louis De Gusseme, Thomas Lips, Remko Proesmans, ... , **Qihao Lin**, ...  
 DOI: [10.1177/02783649251414885](https://doi.org/10.1177/02783649251414885)
 
