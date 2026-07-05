@@ -1,0 +1,63 @@
+- title: "Assistive robotics for physical interaction"
+  kicker: "CMU RCHI Lab"
+  image: /assets/images/robe.jpg
+  image_alt: "Robot-assisted bedding manipulation setup"
+  highlight: "Robots that reason through contact, cloth, and human-centered environments."
+  summary: "Research at the Robotic Caregiving and Human Interaction Lab on assistive robot perception and manipulation, with an emphasis on robust behavior in real physical settings."
+  tags:
+    - Assistive robotics
+    - Human-robot interaction
+    - Deformable objects
+  links:
+    - label: "RCHI Lab"
+      url: "https://rchi-lab.github.io"
+
+- title: "Transparent fragment reassembly"
+  kicker: "Visual-tactile perception"
+  image: /all.jpg
+  image_alt: "Visual-tactile transparent fragment contour estimation pipeline"
+  highlight: "Combining camera observations and tactile sensing to estimate transparent fragment contours."
+  summary: "A visual-tactile framework for transparent fragment contour estimation and autonomous reassembly, supported by TransFrag27K, GelSight tactile sensing, material classification, and contour matching."
+  tags:
+    - Visual-tactile fusion
+    - Transparent objects
+    - Robotic reassembly
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2603.20290"
+    - label: "Code"
+      url: "https://github.com/Keithllin/Transparent-Fragments-Contour-Estimation"
+
+- title: "Standardized-lexicon-scale Chinese Sign Language translation"
+  kicker: "Accessibility AI systems"
+  image:
+  image_alt:
+  highlight: "A dictionary-grounded bidirectional workflow for CSL recognition and signer rendering."
+  summary: "Work on a Chinese Sign Language translation system that connects a multimodal computational CSL dictionary, CSL-to-text recognition, text-to-CSL rule-assembled signer rendering, and edge-deployable local interaction. The public-facing scope is described as around 8,000 CSL vocabulary items."
+  tags:
+    - Chinese Sign Language
+    - Multimodal dictionary
+    - Edge AI
+  links:
+    - label: "System"
+      url: "https://csl.cch.gd.cn/"
+    - label: "Article"
+      url: "https://mp.weixin.qq.com/s/-jCK7zOMENBujW7dllizKw"
+    - label: "Article"
+      url: "https://mp.weixin.qq.com/s/SXeBI0icZPY5uIm_WvHD5w"
+
+- title: "Robotic cloth unfolding benchmark"
+  kicker: "ICRA 2024 Cloth Competition"
+  image: /cloth_competition_banner.jpg
+  image_alt: "Robotic cloth unfolding grasp selection benchmark banner"
+  highlight: "A shared benchmark for evaluating robotic grasp selection in cloth unfolding."
+  summary: "Contribution to the ICRA 2024 Cloth Competition and IJRR benchmark paper, focusing on real-world grasp selection for in-air robotic cloth unfolding."
+  tags:
+    - Cloth manipulation
+    - Benchmarking
+    - IJRR
+  links:
+    - label: "Project"
+      url: "https://airo.ugent.be/cloth_competition/"
+    - label: "DOI"
+      url: "https://doi.org/10.1177/02783649251414885"

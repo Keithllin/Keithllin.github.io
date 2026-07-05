@@ -1,0 +1,36 @@
+<article class="project-card{% unless include.project.image %} project-card--text{% endunless %}">
+  {% assign primary_link = include.project.links | first %}
+  {% if include.project.image %}
+    <a class="project-card__media" href="{{ primary_link.url }}" aria-label="{{ include.project.title }}">
+      <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.image_alt | escape }}" loading="lazy">
+    </a>
+  {% else %}
+    <div class="project-card__media project-card__media--typographic" aria-hidden="true">
+      <span>CSL</span>
+      <small>dictionary-scale translation</small>
+    </div>
+  {% endif %}
+
+  <div class="project-card__body">
+    <p class="project-card__kicker">{{ include.project.kicker }}</p>
+    <h3>{{ include.project.title }}</h3>
+    <p class="project-card__highlight">{{ include.project.highlight }}</p>
+    <p>{{ include.project.summary }}</p>
+
+    {% if include.project.tags %}
+      <ul class="tag-list" aria-label="Project tags">
+        {% for tag in include.project.tags %}
+          <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if include.project.links %}
+      <div class="project-links">
+        {% for link in include.project.links %}
+          <a href="{{ link.url }}">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>
