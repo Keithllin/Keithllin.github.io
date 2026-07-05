@@ -2,8 +2,8 @@
   kicker: "CMU RCHI Lab"
   image: /assets/images/robe.jpg
   image_alt: "Robot-assisted bedding manipulation setup"
-  highlight: "Robots that reason through contact, cloth, and human-centered environments."
-  summary: "Research at the Robotic Caregiving and Human Interaction Lab on assistive robot perception and manipulation, with an emphasis on robust behavior in real physical settings."
+  highlight: "Assistive robot perception and manipulation in real physical environments."
+  summary: "Research at the Robotic Caregiving and Human Interaction Lab on assistive robotics, robot perception and manipulation, and human-robot interaction."
   tags:
     - Assistive robotics
     - Human-robot interaction
@@ -16,7 +16,7 @@
   kicker: "Visual-tactile perception"
   image: /all.jpg
   image_alt: "Visual-tactile transparent fragment contour estimation pipeline"
-  highlight: "Combining camera observations and tactile sensing to estimate transparent fragment contours."
+  highlight: "Visual-tactile fusion for transparent fragment contour estimation and reassembly."
   summary: "A visual-tactile framework for transparent fragment contour estimation and autonomous reassembly, supported by TransFrag27K, GelSight tactile sensing, material classification, and contour matching."
   tags:
     - Visual-tactile fusion
@@ -32,8 +32,8 @@
   kicker: "Accessibility AI systems"
   image:
   image_alt:
-  highlight: "A dictionary-grounded bidirectional workflow for CSL recognition and signer rendering."
-  summary: "Work on a Chinese Sign Language translation system that connects a multimodal computational CSL dictionary, CSL-to-text recognition, text-to-CSL rule-assembled signer rendering, and edge-deployable local interaction. The public-facing scope is described as around 8,000 CSL vocabulary items."
+  highlight: "Standardized-lexicon-scale Chinese Sign Language translation."
+  summary: "Industry work on a Chinese Sign Language translation system connecting a multimodal computational CSL dictionary, CSL-to-text recognition, text-to-CSL rule-assembled signer rendering, and edge-deployable local interaction. The public-facing scope is around 8,000 CSL vocabulary items."
   tags:
     - Chinese Sign Language
     - Multimodal dictionary
@@ -50,7 +50,7 @@
   kicker: "ICRA 2024 Cloth Competition"
   image: /cloth_competition_banner.jpg
   image_alt: "Robotic cloth unfolding grasp selection benchmark banner"
-  highlight: "A shared benchmark for evaluating robotic grasp selection in cloth unfolding."
+  highlight: "A benchmark for robotic cloth unfolding grasp selection."
   summary: "Contribution to the ICRA 2024 Cloth Competition and IJRR benchmark paper, focusing on real-world grasp selection for in-air robotic cloth unfolding."
   tags:
     - Cloth manipulation
