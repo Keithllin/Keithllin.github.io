@@ -14,7 +14,7 @@
   bibtex: |
       @article{lin2026transparent,
         title={Transparent Fragments Contour Estimation via Visual-Tactile Fusion for Autonomous Reassembly},
-        author={Lin, Qihao and others},
+        author={Lin, Qihao, Borui Chen, Yuping Zhou, Jianing Wu, Yulan Guo, Weishi Zheng, Chongkun Xia},
         journal={arXiv preprint},
         year={2026}
       }
