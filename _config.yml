@@ -1,8 +1,8 @@
-title: Qihao Lin
+title: KeithLin
 author:
-  name:
-  email:
-description:
+  name: Qihao (Keith) Lin 林祺皓
+  email: qihaol@andrew.cmu.edu
+description: Personal research homepage of Qihao (Keith) Lin, a CMU researcher working on assistive robotics, visual-tactile perception, and accessibility-centered AI systems.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -47,9 +47,9 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-# - publications.md
+ - publications.md
  - cv.md
-# - bio.md
+ - bio.md
 
 # Build settings
 theme: minima

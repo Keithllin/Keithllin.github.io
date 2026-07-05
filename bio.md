@@ -5,19 +5,17 @@ permalink: /bio/
 ---
 
 ## Short Biography
-Zackory Erickson is an Assistant Professor in The Robotics Institute at Carnegie Mellon University, 
-where he leads the Robotic Caregiving and Human Interaction (RCHI) Lab.
-His research focuses on developing new robot learning, mobile manipulation, and sensing methods for physical human-robot interaction and healthcare.
-Zackory received his PhD in Robotics and M.S. in Computer Science from Georgia Tech and B.S. in Computer Science at the University of Wisconsin--La Crosse. 
+
+Qihao (Keith) Lin 林祺皓 is an M.S. student at Carnegie Mellon University working on assistive robotics, robot perception and manipulation, visual-tactile sensing, and accessibility-centered AI systems. He is a member of the Robotic Caregiving and Human Interaction Lab, advised by Professor Zackory Erickson.
 
 ## Full Biography
-Zackory Erickson is an Assistant Professor in The Robotics Institute at Carnegie Mellon University, 
-where he leads the Robotic Caregiving and Human Interaction (RCHI) Lab.
-His research focuses on developing new robot learning, mobile manipulation, and sensing methods for physical human-robot interaction and healthcare.
-Zackory's work spans physical human-robot interaction, healthcare robotics, wearable health sensing, robot learning, physics simulation, multimodal perception, and mobile manipulation.
-Prior to joining CMU, Zackory received his PhD in Robotics from Georgia Tech with Prof. Charlie Kemp. 
-He also received an M.S. in Computer Science from Georgia Tech and B.S. in Computer Science at the University of Wisconsin--La Crosse.
-He and his students have received the Best Paper Award at HRI 2024, Best Paper nomination at HRI 2025, Best Student Paper Award at ICORR 2019, and a Best Paper in Service Robotics finalist at ICRA 2019.
 
-## Photo for publication
-![Zackory Erickskon](assets/images/zackory_erickson.jpg)
+Qihao (Keith) Lin 林祺皓 is an M.S. student at Carnegie Mellon University. His research focuses on assistive robotics and physical intelligence for real-world interaction, including robot perception and manipulation, deformable object reasoning, visual-tactile sensing, and human-centered AI systems.
+
+At CMU, he works with the Robotic Caregiving and Human Interaction Lab on assistive robot systems for physical interaction. He received his B.S. degree in Aerospace Engineering from Sun Yat-sen University, where he worked on robotic perception and manipulation in the Robotics and Intelligent Sensing Lab advised by Professor Chongkun Xia.
+
+His research projects span visual-tactile transparent fragment reconstruction, robotic cloth manipulation benchmarks, assistive robot behavior, and Chinese Sign Language translation systems. His broader goal is to build intelligent systems that operate robustly in physical environments and serve meaningful accessibility needs.
+
+## Contact
+
+Email: [qihaol@andrew.cmu.edu](mailto:qihaol@andrew.cmu.edu)
