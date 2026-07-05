@@ -30,7 +30,7 @@
 
 - title: "Standardized-lexicon-scale Chinese Sign Language translation"
   kicker: "Accessibility AI systems"
-  image:
+  image: /image.png
   image_alt:
   highlight: "Standardized-lexicon-scale Chinese Sign Language translation."
   summary: "Industry work on a Chinese Sign Language translation system connecting a multimodal computational CSL dictionary, CSL-to-text recognition, text-to-CSL rule-assembled signer rendering, and edge-deployable local interaction. The public-facing scope is around 8,000 CSL vocabulary items."
