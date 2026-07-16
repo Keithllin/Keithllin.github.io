@@ -7,9 +7,9 @@
   "minima/initialize";
 
 :root {
-  --bg: #f8faf9;
+  --bg: #ffffff;
   --surface: #ffffff;
-  --surface-strong: #eef5f2;
+  --surface-strong: #ffffff;
   --text: #1d2522;
   --muted: #59665f;
   --line: #dce2dc;
@@ -26,6 +26,12 @@ body {
   letter-spacing: 0;
 }
 
+html,
+.page-content,
+.site-footer {
+  background: #ffffff;
+}
+
 a {
   color: var(--accent-dark);
   text-decoration-thickness: 1px;
@@ -39,8 +45,8 @@ a {
 .site-header {
   border-top: 0;
   border-bottom: 1px solid var(--line);
-  background: rgba(248, 250, 249, 0.94);
-  backdrop-filter: blur(14px);
+  background: #ffffff;
+  backdrop-filter: none;
 }
 
 .site-title,
@@ -75,14 +81,22 @@ a {
 }
 
 .plain-introduction {
-  max-width: 900px;
+  display: grid;
+  grid-template-columns: minmax(180px, 220px) minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 48px);
+  align-items: start;
+  max-width: 980px;
 }
 
 .profile-photo {
   display: block;
-  width: min(100%, 280px);
+  width: 100%;
   height: auto;
-  margin: 0 0 24px;
+  margin: 0;
+}
+
+.profile-copy {
+  min-width: 0;
 }
 
 .plain-introduction h1 {
@@ -358,6 +372,7 @@ a {
   }
 
   .section-heading--split,
+  .plain-introduction,
   .project-grid,
   .project-card,
   .publication-item,
@@ -368,6 +383,10 @@ a {
   .contact-section {
     align-items: flex-start;
     display: grid;
+  }
+
+  .profile-photo {
+    width: min(220px, 100%);
   }
 }
 
