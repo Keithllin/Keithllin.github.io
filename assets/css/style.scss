@@ -91,11 +91,8 @@ a {
 .profile-photo {
   display: block;
   width: 100%;
-  aspect-ratio: 9 / 16;
   height: auto;
   margin: 0;
-  object-fit: cover;
-  object-position: center;
   justify-self: end;
 }
 
