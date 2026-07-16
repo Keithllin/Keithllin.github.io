@@ -82,10 +82,10 @@ a {
 
 .plain-introduction {
   display: grid;
-  grid-template-columns: minmax(180px, 220px) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
   gap: clamp(28px, 4vw, 48px);
-  align-items: start;
-  max-width: 980px;
+  align-items: center;
+  max-width: 1080px;
 }
 
 .profile-photo {
@@ -93,6 +93,7 @@ a {
   width: 100%;
   height: auto;
   margin: 0;
+  justify-self: end;
 }
 
 .profile-copy {
@@ -387,6 +388,7 @@ a {
 
   .profile-photo {
     width: min(220px, 100%);
+    justify-self: start;
   }
 }
 
