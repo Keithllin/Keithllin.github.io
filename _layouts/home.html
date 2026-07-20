@@ -4,60 +4,54 @@ layout: default
 
 <div class="home-shell">
   <section class="plain-introduction" aria-labelledby="intro-title">
-    <div class="profile-copy">
-    <h1 id="intro-title">Qihao (Keith) Lin <span>林祺皓</span></h1>
+    <h1 class="profile-heading" id="intro-title">Qihao (Keith) Lin <span>林祺皓</span></h1>
+    <div class="profile-lead">
     <p>
       Hi! I am an M.S. student at <a href="https://www.cmu.edu">Carnegie Mellon University</a> working on assistive robotics. My research interests lie in robot perception and manipulation, machine learning, and human-robot interaction. I am a member of the <a href="https://rchi-lab.github.io">Robotic Caregiving and Human Interaction Lab</a>, advised by <a href="https://zackory.com/">Prof. Zackory Erickson</a>.
     </p>
-    <p>
+    </div>
+    <p class="profile-education">
       I received my B.S. in Aerospace Engineering from Sun Yat-sen University. During my undergraduate research, I worked on robotic perception and manipulation with the Robotics and Intelligent Sensing Lab, advised by Chongkun Xia. My projects included deformable and transparent object sensing and manipulation.
     </p>
-    <p>
+    <p class="profile-internship">
       In addition to academic research, I worked as a machine learning engineer intern at Shenzhen Haoya IoT Co., Ltd. on algorithm development for Chinese Sign Language translation systems. My work included on-device models and sign-language data processing.
     </p>
-    <p>
+    <p class="profile-personal">
       Outside research, I enjoy music and sports. I was a singer and guitarist in the band Decide It Tomorrow, and I also enjoy basketball, jogging, and working out.
     </p>
     <p class="profile-contact">
       <strong>Email:</strong> <a href="mailto:qihaol@andrew.cmu.edu">qihaol@andrew.cmu.edu</a><br>
       <strong>CV:</strong> <a href="{{ '/assets/Qihao_Lin_CV.pdf' | relative_url }}">Qihao Lin CV</a>
     </p>
-    </div>
     <img class="profile-photo" src="{{ '/assets/lqh_1.png' | relative_url }}" alt="Qihao Keith Lin portrait">
   </section>
 
   <section class="projects-section" aria-labelledby="projects-title">
-    <div class="section-heading section-heading--split">
-      <div>
-        <p class="eyebrow">Selected work</p>
-        <h2 id="projects-title">Research projects</h2>
-      </div>
-      <p>Selected work from assistive robotics, visual-tactile sensing, deformable object manipulation, and sign-language translation.</p>
-    </div>
-    <div class="project-grid">
+    <header class="editorial-section-header">
+      <h2 id="projects-title">Selected Projects</h2>
+    </header>
+    <div class="project-index">
       {% for project in site.data.projects %}
-        {% include project-card.html project=project %}
+        {% include project-card.html project=project index=forloop.index %}
       {% endfor %}
     </div>
   </section>
 
   <section class="publications-section" aria-labelledby="publications-title">
-    <div class="section-heading section-heading--split">
-      <div>
-        <p class="eyebrow">Publications</p>
-        <h2 id="publications-title">Manuscripts and papers</h2>
-      </div>
+    <header class="editorial-section-header editorial-section-header--linked">
+      <h2 id="publications-title">Publications</h2>
       <a class="text-link" href="{{ '/publications/' | relative_url }}">All publications</a>
-    </div>
-    <div class="publication-list">
+    </header>
+    <div class="publication-index">
       {% for pub in site.data.publications %}
-        <article class="publication-item">
-          <img src="{{ pub.image | relative_url }}" alt="{{ pub.title | escape }}" loading="lazy">
-          <div>
+        <article class="publication-index__item">
+          <p class="publication-index__year">{{ pub.year }}</p>
+          <img class="publication-index__image" src="{{ pub.image | relative_url }}" alt="{{ pub.title | escape }}" loading="lazy">
+          <div class="publication-index__body">
             <h3><a href="{{ pub.pdf }}">{{ pub.title }}</a></h3>
-            <p>{{ pub.authors }}</p>
-            <p><em>{{ pub.venue }}</em>, {{ pub.year }}</p>
-            <div class="project-links">
+            <p class="publication-index__authors">{{ pub.authors }}</p>
+            <p class="publication-index__venue"><em>{{ pub.venue }}</em></p>
+            <div class="editorial-links">
               {% if pub.pdf %}<a href="{{ pub.pdf }}">Paper</a>{% endif %}
               {% if pub.code %}<a href="{{ pub.code }}">Code</a>{% endif %}
               {% if pub.projectpage %}<a href="{{ pub.projectpage }}">Project</a>{% endif %}
@@ -69,10 +63,10 @@ layout: default
   </section>
 
   <section class="contact-section" aria-labelledby="contact-title">
-    <div>
-      <p class="eyebrow">Contact</p>
-      <h2 id="contact-title">Open to research conversations and collaboration.</h2>
+    <h2 id="contact-title">Contact</h2>
+    <div class="contact-section__body">
+      <p>Open to research conversations and collaboration.</p>
+      <a href="mailto:qihaol@andrew.cmu.edu">qihaol@andrew.cmu.edu</a>
     </div>
-    <a class="button button-primary" href="mailto:qihaol@andrew.cmu.edu">qihaol@andrew.cmu.edu</a>
   </section>
 </div>
