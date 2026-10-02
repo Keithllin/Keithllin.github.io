@@ -9,10 +9,6 @@
     - Assistive robotics
     - Human-robot interaction
     - Deformable objects
-  links:
-    - label: "Project"
-      url: "/projects/uncover-to-recover/"
-
 - title: "Transparent fragment reassembly"
   kicker: "Visual-tactile perception"
   image: /all.jpg
