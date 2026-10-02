@@ -43,7 +43,7 @@ img { display: block; max-width: 100%; height: auto; }
   gap: 24px;
   min-height: 54px;
 }
-.lab-name { color: var(--text); font-size: 14px; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.project-name { color: var(--text); font-size: 14px; font-weight: 700; text-decoration: none; white-space: nowrap; }
 nav { display: flex; flex-wrap: wrap; gap: 20px; }
 nav a { color: var(--muted); font-size: 13px; text-decoration: none; }
 nav a:hover { color: var(--link); text-decoration: underline; }
@@ -53,7 +53,6 @@ main { padding-block: 30px 64px; }
 .project-label { margin: 0 0 7px; color: var(--muted); font-size: 13px; }
 h1, h2, h3 { color: var(--text); line-height: 1.25; }
 h1 { max-width: 880px; margin: 0 0 10px; font-size: clamp(29px, 3.6vw, 38px); font-weight: 650; letter-spacing: -.025em; }
-.maintainer { margin: 0; color: var(--muted); font-size: 14px; }
 
 section { margin-top: 32px; }
 h2 { margin: 0 0 12px; font-size: 25px; font-weight: 650; letter-spacing: -.015em; }
@@ -78,8 +77,6 @@ tbody th { font-weight: 600; }
 .per-target .target-results { min-width: 850px; }
 
 #main-finding { padding-top: 2px; }
-#related-project { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--rule); }
-#related-project p { margin-bottom: 0; }
 
 .site-footer { border-top: 1px solid var(--rule); }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; min-height: 54px; }

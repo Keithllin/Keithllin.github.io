@@ -1,5 +1,5 @@
 - title: "Uncover to Re-cover: Model-Based Blanket Manipulation for In-Bed Assistance"
-  kicker: "CMU RCHI Lab"
+  kicker: "In-bed assistance"
   image: /projects/uncover-to-recover/assets/teaser1.png
   image_fit: contain
   image_alt: "Coupled blanket uncovering and re-covering pipeline for in-bed assistance"
@@ -12,8 +12,6 @@
   links:
     - label: "Project"
       url: "/projects/uncover-to-recover/"
-    - label: "RCHI Lab"
-      url: "https://rchi-lab.github.io"
 
 - title: "Transparent fragment reassembly"
   kicker: "Visual-tactile perception"
