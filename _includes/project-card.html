@@ -2,9 +2,15 @@
   {% assign primary_link = include.project.links | first %}
   <p class="project-index__number" aria-hidden="true">0{{ include.index }}</p>
   {% if include.project.image %}
+    {% if primary_link %}
     <a class="project-index__media{% if include.project.image_fit == 'contain' %} project-index__media--contain{% endif %}" href="{{ primary_link.url | relative_url }}" aria-label="{{ include.project.title }}">
       <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.image_alt | escape }}" loading="lazy">
     </a>
+    {% else %}
+    <div class="project-index__media{% if include.project.image_fit == 'contain' %} project-index__media--contain{% endif %}">
+      <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.image_alt | escape }}" loading="lazy">
+    </div>
+    {% endif %}
   {% else %}
     <div class="project-index__media project-index__media--text" aria-hidden="true">
       <span>CSL</span>
