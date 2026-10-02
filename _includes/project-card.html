@@ -2,7 +2,7 @@
   {% assign primary_link = include.project.links | first %}
   <p class="project-index__number" aria-hidden="true">0{{ include.index }}</p>
   {% if include.project.image %}
-    <a class="project-index__media" href="{{ primary_link.url }}" aria-label="{{ include.project.title }}">
+    <a class="project-index__media{% if include.project.image_fit == 'contain' %} project-index__media--contain{% endif %}" href="{{ primary_link.url | relative_url }}" aria-label="{{ include.project.title }}">
       <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.image_alt | escape }}" loading="lazy">
     </a>
   {% else %}
@@ -19,7 +19,7 @@
     {% if include.project.links %}
       <div class="editorial-links">
         {% for link in include.project.links %}
-          <a href="{{ link.url }}">{{ link.label }}</a>
+          <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
         {% endfor %}
       </div>
     {% endif %}

@@ -256,6 +256,14 @@ a {
   font-weight: 800;
 }
 
+.project-index__media--contain {
+  background: #ffffff;
+}
+
+.project-index__media--contain img {
+  object-fit: contain;
+}
+
 .project-index__body h3,
 .publication-index__body h3 {
   margin: 6px 0 10px;
