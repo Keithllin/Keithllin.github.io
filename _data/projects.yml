@@ -1,14 +1,17 @@
-- title: "Assistive robotics for physical interaction"
+- title: "Uncover to Re-cover: Model-Based Blanket Manipulation for In-Bed Assistance"
   kicker: "CMU RCHI Lab"
-  image: /assets/images/robe.jpg
-  image_alt: "Robot-assisted bedding manipulation setup"
-  highlight: "Assistive robot perception and manipulation in real physical environments."
-  summary: "Research at the Robotic Caregiving and Human Interaction Lab on assistive robotics, robot perception and manipulation, and human-robot interaction."
+  image: /projects/uncover-to-recover/assets/teaser1.png
+  image_fit: contain
+  image_alt: "Coupled blanket uncovering and re-covering pipeline for in-bed assistance"
+  highlight: "Plan uncovering to leave a blanket state that supports the re-covering action that follows."
+  summary: "Model-based blanket manipulation for in-bed assistance, connecting entropy-aware uncovering with a graph dynamics model fine-tuned on cloth smoothing. The system plans the blanket state left by uncovering to support subsequent re-covering, with simulation evaluation and transfer to a 10-participant human study."
   tags:
     - Assistive robotics
     - Human-robot interaction
     - Deformable objects
   links:
+    - label: "Project"
+      url: "/projects/uncover-to-recover/"
     - label: "RCHI Lab"
       url: "https://rchi-lab.github.io"
 
